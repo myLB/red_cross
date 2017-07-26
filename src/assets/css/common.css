@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,abbr,address,big,em,img,q,small,strike,strong,
+sub,sup,tt,var,i,dl,dt,dd,ol,ul,li,form,fieldset,label,table,caption,tbody,thead,tfoot,tr,th,td,article,
+aside,canvas,details,figure,figcaption,header,footer,hgroup,menu,nav,output,section,time,mark,audio,
+video,input,select,button{margin:0;padding:0;}
+/*去除默认样式*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif, “微软雅黑”; /*使用无衬线字体*/
+}
+
+a, img {
+    -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
+}
+
+html, body {
+    -webkit-user-select: none; /*禁止选中文本*/
+    user-select: none;
+    -webkit-font-smoothing: antialiased;/*字体更加平滑,但对font-wight有一定影响*/
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button,input,optgroup,select,textarea {
+    -webkit-appearance:none; /*去掉webkit默认的表单样式*/
+    -moz-appearance: none;
+    outline:none;
+}
+
+select::-ms-expand {
+    display: none;
+}/*表单选择控件下拉箭头的修改，有多个属性值，设置它隐藏 (display:none) 并使用背景图片来修饰可得到我们想要的效果*/
+
+input[type=radio]::-ms-check,input[type=checkbox]::-ms-check{
+    display: none;
+}/*表单复选框或单选按钮默认图标的修改*/
+
+a,button,input,optgroup,select,textarea {
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+
+input::-moz-focus-inner{border:none;padding:0;}
+
+input::-webkit-input-placeholder {
+    color:#ccc; /*修改webkit中input的planceholder样式*/
+}
+
+input:focus::-webkit-input-placeholder {
+    color:#f00; /*修改webkit中focus状态下input的planceholder样式*/
+}
+
+body {
+    -webkit-text-size-adjust: 100%!important; /*禁止IOS调整字体大小*/
+}
+
+input::-webkit-input-speech-button {
+    display: none; /*隐藏Android的语音输入按钮*/
+}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight: normal;}
+
+ul,ol,li{list-style:none;}
+/*去除默认样式*/
+
+table{border-collapse:collapse;border-spacing:0;}
+/*表格边框合并，边框间距零*/
+
+a{text-decoration:none;color:#000;}
+a:hover{text-decoration:none;}
+/*去除a链接的默认样式*/
+
+/*html5标签*/
+header,footer,section,article,aside,nav,figure{display:block;}
+
+fieldset, img{border:none;display:block;}
+/*去除图片的边框*/
+
+.clearfix::after{
+    content:'';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+/*伪类清除浮动*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
