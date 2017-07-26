@@ -88,6 +88,15 @@ fieldset, img{border:none;display:block;}
 
 
 
+@font-face {
+  font-family: 'iconfont';  /* project id 321961 */
+  src: url('//at.alicdn.com/t/font_s2c6b88qw5vzpvi.eot');
+  src: url('//at.alicdn.com/t/font_s2c6b88qw5vzpvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_s2c6b88qw5vzpvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_s2c6b88qw5vzpvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_s2c6b88qw5vzpvi.svg#iconfont') format('svg');
+}
+
 
 
 
